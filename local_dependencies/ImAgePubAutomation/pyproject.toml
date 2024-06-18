@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "imagepubautomation"
+version = "0.1.1"
+description = ""
+authors = ["Martin <martin.alvarez.kuglen@gmail.com>",
+            "Kenta Ninomiya <kenta.ninomiya@uwa.edu.au>"
+            ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.12"
+epilands = {path = "../EpiLands"}
+multiprocesspipelines = {path = "../MultiProcessPipelines"}
+dask = "^2024.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

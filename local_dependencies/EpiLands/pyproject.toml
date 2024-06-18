@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "epilands"
+version = "0.1.1"
+description = "A package for analyzing epigenetic landscapes"
+authors = ["Martin <martin.alvarez.kuglen@gmail.com>",
+            "Kenta Ninomiya <kenta.ninomiya@uwa.edu.au>"
+            ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+BaSiCPy = "1.2.0"
+numpy="1.26.4"
+stardist = "0.9.1"
+tensorflow = {version="2.15.1", extras=["and-cuda"]}
+matplotlib = "3.5.3"
+pandas = "1.4.3"
+seaborn = "0.11.2"
+plotly = "5.14.0"
+tifffile = "2022.8.12"
+numba = "0.60.0"
+scikit-image = "0.19.3"
+scikit-learn = "1.2.2"
+tqdm = "4.64.0"
+umap-learn = "0.5.3"
+beartype = "0.10.4"
+h5py = "^3.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

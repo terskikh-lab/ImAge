@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "image-publication-code"
+version = "0.1.1"
+description = ""
+authors = ["Martin <martin.alvarez.kuglen@gmail.com>",
+            "Kenta Ninomiya <kenta.ninomiya@uwa.edu.au>"
+            ]
+readme = "README.md"
+packages = [{include = "image_publication_code"}]
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.12"
+h5py = "^3.11.0"
+epilands = {path = "./local_dependencies/EpiLands"}
+multiprocesspipelines = {path = "./local_dependencies/MultiProcessPipelines"}
+imagepubautomation = {path = "./local_dependencies/ImAgePubAutomation"}
+cmdstanpy = "^1.2.4"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

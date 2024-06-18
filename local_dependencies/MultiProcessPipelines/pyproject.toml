@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "multiprocesspipelines"
+version = "0.1.1"
+description = "\"A package for creating modular pipelines which can run in parallel on node clusters with a shared file system"
+authors = ["Martin <martin.alvarez.kuglen@gmail.com>",
+            "Kenta Ninomiya <kenta.ninomiya@uwa.edu.au>"
+            ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+multiprocesstools = { path = "../MultiProcessTools" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
