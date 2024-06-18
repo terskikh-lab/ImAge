@@ -71,5 +71,5 @@ These are the main processes used to obtain the ImAge readout, and they are appl
 Sample data is available at https://osf.io/mkc9u/
 You can download and extract files and copy them as instructed in the Folder structure section. This will replicate the results for Figure 1 in our publication, [ImAge quantitates aging and rejuvenation. Nature Aging](http://dx.doi.org/10.21203/rs.3.rs-3479973/v1).
 
-### Related publication
+## Related publication
 - Farhy, C., Hariharan, S., Ylanko, J., Orozco, L., Zeng, F.-Y., Pass, I., Ugarte, F., Forsberg, E.C., Huang, C.-T., Andrews, D.W., et al. (2019). Improving drug discovery using image-based multiparametric analysis of the epigenetic landscape. Elife 8. 10.7554/eLife.49683.
