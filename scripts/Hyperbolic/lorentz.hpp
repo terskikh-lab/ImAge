@@ -6,43 +6,6 @@ namespace lorentz_model_namespace {
 using stan::model::model_base_crtp;
 using namespace stan::math;
 
-
-stan::math::profile_map profiles__;
-static constexpr std::array<const char*, 33> locations_array__ = 
-{" (found before start of program)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 15, column 4 to column 21)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 16, column 4 to column 29)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 17, column 4 to column 29)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 20, column 4 to column 19)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 23, column 8 to column 47)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 22, column 4 to line 23, column 47)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 26, column 4 to column 14)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 27, column 4 to column 14)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 29, column 4 to column 54)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 32, column 8 to column 37)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 31, column 4 to line 32, column 37)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 37, column 16 to column 61)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 38, column 16 to column 61)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 40, column 16 to column 57)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 36, column 35 to line 41, column 13)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 36, column 12 to line 41, column 13)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 35, column 24 to line 42, column 9)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 35, column 8 to line 42, column 9)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 34, column 17 to line 43, column 5)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 34, column 4 to line 43, column 5)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 7, column 4 to column 19)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 8, column 4 to column 19)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 9, column 11 to column 12)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 9, column 14 to column 15)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 9, column 4 to column 25)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 12, column 4 to column 30)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 15, column 18 to column 19)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 15, column 11 to column 12)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 16, column 22 to column 23)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 20, column 11 to column 12)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 3, column 8 to column 50)",
- " (in '/nadata/cjc/miel/kenta/ImAge_test/ImAge-main/scripts/Hyperbolic/lorentz.stan', line 2, column 52 to line 4, column 5)"};
-
 struct hyp_functor__ {
   template <typename T0__, typename T1__, typename T2__, typename T3__,
             stan::require_all_t<stan::is_stan_scalar<T0__>,
