@@ -1,8 +1,7 @@
 # ImAge quantitates ageing and rejuvenation
 This repository provides Python-based code to replicate the imaging-based chromatin and epigenetic age (ImAge).
 The ImAge is introduced in the following publications:
-- Alvarez-Kuglen M, Ninomiya K, Qin H, Rodriguez D, Fiengo L, Farhy C, Hsu WM, Havas A, Kirk B, Feng GS, Roberts AJ, Anderson RM, Serrano M, Adams PD, Sharpee TO, Terskikh AV. ImAge quantitates aging and rejuvenation. Nature Aging in press. 2024. Available from: http://dx.doi.org/10.21203/rs.3.rs-3479973/v1
-- Alvarez-Kuglen M, Rodriguez D, Qin H, Ninomiya K, Fiengo L, Farhy C, et al. ImAge: an imaging approach to quantitate aging and rejuvenation. bioRxiv. 2023. doi:10.1101/2022.10.16.512441
+- Alvarez-Kuglen, M., Ninomiya, K., Qin, H., Rodriguez, D., Fiengo, L., Farhy, C., Hsu, W.-M., Kirk, B., Havas, A., Feng, G.-S., et al. (2024). ImAge quantitates aging and rejuvenation. Nat. Aging. https://doi.org/10.1038/s43587-024-00685-1.
 
 ## Overall workflow
 The main workflow to calculate ImAge readouts consists of four steps: 1. illumination correction, 2. Nuclei segmentation, 3. image feature extraction, and 4. ImAge axis construction.
@@ -72,4 +71,5 @@ Sample data is available at https://osf.io/mkc9u/
 You can download and extract files and copy them as instructed in the Folder structure section. This will replicate the results for Figure 1 in our publication, [ImAge quantitates aging and rejuvenation. Nature Aging](http://dx.doi.org/10.21203/rs.3.rs-3479973/v1).
 
 ## Related publication
+- Ninomiya, K., and Terskikh, A.V. (2024). Imaging the epigenetic landscape in single cells to study aging trajectories. Nat Aging. https://doi.org/10.1038/s43587-024-00689-x.
 - Farhy, C., Hariharan, S., Ylanko, J., Orozco, L., Zeng, F.-Y., Pass, I., Ugarte, F., Forsberg, E.C., Huang, C.-T., Andrews, D.W., et al. (2019). Improving drug discovery using image-based multiparametric analysis of the epigenetic landscape. Elife 8. 10.7554/eLife.49683.
