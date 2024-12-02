@@ -2,7 +2,7 @@
 This repository provides Python-based code to replicate the imaging-based chromatin and epigenetic age (ImAge).
 The ImAge is introduced in the following publications:
 - Alvarez-Kuglen, M., Ninomiya, K., Qin, H., Rodriguez, D., Fiengo, L., Farhy, C., Hsu, W.-M., Kirk, B., Havas, A., Feng, G.-S., et al. (2024). ImAge quantitates aging and rejuvenation. Nat. Aging. https://doi.org/10.1038/s43587-024-00685-1.
-Also available at ![](https://www.scintillon.org/terskikh-publications)
+(Full article access is also available at https://www.scintillon.org/terskikh-publications)
 
 ## Overall workflow
 The main workflow to calculate ImAge readouts consists of four steps: 1. illumination correction, 2. Nuclei segmentation, 3. image feature extraction, and 4. ImAge axis construction.
