@@ -57,7 +57,7 @@ python o2_run_feature_extraction_exe.py # extract image features
 # ... continued to o3*, o4*
 ```
 
-Here is the list of the scripts and a brief description (with relevant figures in the publication [ImAge quantitates aging and rejuvenation. Nature Aging](http://dx.doi.org/10.21203/rs.3.rs-3479973/v1)):
+Here is the list of the scripts and a brief description (with relevant figures in the publication [ImAge quantitates aging and rejuvenation. Nature Aging](https://www.nature.com/articles/s43587-024-00685-1)):
 - o1_run_segmentation_exe.py: create single-cell segmentation mask (Fig.1 a)
 - o2_run_feature_extraction_exe.py: extract single-cell image features (Fig.1 a)
 - o3_ImAge_bootstrap_traintestsplit_blood.py:  randomly sample training and test single-cell data and bootstrap them (Fig. 1d and e)
@@ -69,7 +69,7 @@ These are the main processes used to obtain the ImAge readout, and they are appl
 
 ### Data availability
 Sample data is available at https://osf.io/mkc9u/
-You can download and extract files and copy them as instructed in the Folder structure section. This will replicate the results for Figure 1 in our publication, [ImAge quantitates aging and rejuvenation. Nature Aging](http://dx.doi.org/10.21203/rs.3.rs-3479973/v1).
+You can download and extract files and copy them as instructed in the Folder structure section. This will replicate the results for Figure 1 in our publication, [ImAge quantitates aging and rejuvenation. Nature Aging]([http://dx.doi.org/10.21203/rs.3.rs-3479973/v1](https://www.nature.com/articles/s43587-024-00685-1)).
 
 ## Related publication
 - Ninomiya, K., and Terskikh, A.V. (2024). Imaging the epigenetic landscape in single cells to study aging trajectories. Nat Aging. https://doi.org/10.1038/s43587-024-00689-x.
